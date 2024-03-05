@@ -18,7 +18,7 @@ const TabNavigator = () => {
         tabBarHideOnKeyboard: true,
         headerShown: false,
         tabBarStyle: styles.tabBarStyle,
-        // tabBarShowLabel: false,
+        tabBarShowLabel: false,
         tabBarBackground: () => (
           <BlurView
             overlayColor=""
